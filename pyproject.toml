@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langchain-first-step"
+version = "0.1.0"
+description = "First step to LangChain by Case Done Webinar on December 5, 2024"
+authors = ["Pisek <psk.light@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.2.11"
+langchain-core = "^0.3.21"
+langgraph = "^0.2.54"
+gradio = "^5.7.1"
+langchain-ollama = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
