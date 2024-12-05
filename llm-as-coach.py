@@ -95,8 +95,9 @@ def chat(message, history):
 demo = gr.ChatInterface(
     fn=chat,
     type="messages",
-    examples=[{"text": "I want to consult about my career."}],
-    # title="Echo Bot",
+    examples=[{"text": "I want to consult about my career."},
+              {"text": "Help me get fitter"}],
+    title="Echo, the LLM Coach",
     # multimodal=True,
 )
 
