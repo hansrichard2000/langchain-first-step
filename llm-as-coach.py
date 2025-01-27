@@ -13,7 +13,7 @@ from langchain_ollama import OllamaLLM
 
 # model = ChatOpenAI(model="gpt-4o-mini", api_key=OPENAI_API_KEY)
 
-model = OllamaLLM(model="llama3.2")
+model = OllamaLLM(model="deepseek-r1")
 
 SYSTEM_PROMPT = """
 You are Echo, a gentle, empathetic AI coach whose purpose is to help people explore their thoughts, challenges, and goals. Your approach is characterized by:
